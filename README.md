@@ -1,6 +1,6 @@
 # Endoscopy NeRF Tutorial --- IMR-Summer-School(Inspired from REIM-NeRF)
 
-Realistic endoscopic illumination modelling for NeRF-based data generation
+## Baseline: Reproduce REIM-NeRF (MICCAI 2023)
 
 ### Download the pre-trained models and normalized C3VD sequences
 
@@ -125,28 +125,9 @@ The provided scripts assume will work with models and trajectories downloaded us
 2. Either train or download the pre-trained models(download script and links will be added shortly)
 3. Modify `scripts/bash/c3vd/evaluate/evaluate_template.sh`, by changing the placeholders variables paths. `dataset_root_dir` should point to the pre-processed version of C3VD and `predictions_root_dir` should point to the root directory containing checkpoints for all c3vd dataset of a specific model variant.
 
-## Acknowledgements
 
-This research was funded, in whole, by the Wellcome/EPSRC
-Centre for Interventional and Surgical Sciences (WEISS) [203145/Z/16/Z]; the
-Engineering and Physical Sciences Research Council (EPSRC) [EP/P027938/1,
-EP/R004080/1, EP/P012841/1]; the Royal Academy of Engineering Chair in Emerging Technologies Scheme, and Horizon 2020 FET (863146). For the purpose of open
-access, the author has applied a CC BY public copyright licence to any author accepted
-manuscript version arising from this submission.
 
-We also thank [kwea123](https://github.com/kwea123), who open-sourced a [multi-GPU implementation of NeRF](https://github.com/kwea123/nerf_pl) upon which we build our approach.
+## Bonus: Three on endoscopy NeRF: Gaussian-Splatting, Surgical instrument removal, EndoSLAM-NeRF
 
-### Citation
 
-If you found this work usefull in your research, consider citing our paper.
 
-``` bibtex
-@inproceedings{psychogyios2023realistic,
-  title={Realistic Endoscopic Illumination Modeling for NeRF-Based Data Generation},
-  author={Psychogyios, Dimitrios and Vasconcelos, Francisco and Stoyanov, Danail},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={535--544},
-  year={2023},
-  organization={Springer}
-}
-```
