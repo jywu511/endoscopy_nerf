@@ -129,5 +129,18 @@ The provided scripts assume will work with models and trajectories downloaded us
 
 ## Bonus: Three on endoscopy NeRF: Gaussian-Splatting, Surgical instrument removal, EndoSLAM-NeRF
 
+After completing the tasks mentioned above, we provide three interesting options for you to explore:  Reconstruction based on Gaussian-splatting, Surgical instruments removal, and SLAM-based NeRF.
+
+### Gaussian Splatting
+
+Gaussian splatting is a novel 3D reconstruction way which achieves state-of-the-art visual quality while maintaining competitive training times and importantly allow high-quality real-time (≥ 30 fps) novel-view synthesis at 1080p resolution.
+Detail information can be found at: https://github.com/graphdeco-inria/gaussian-splatting/tree/main
+
+
+### Surgical instrument removal
+
+
+
+
 
 
