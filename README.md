@@ -1,36 +1,6 @@
-# REIM-NeRF
+# Endoscopy NeRF Tutorial --- IMR-Summer-School(Inspired from REIM-NeRF)
 
 Realistic endoscopic illumination modelling for NeRF-based data generation
-
-## Overview
-
-You can download a copy of the corresponding MICCAI-23 paper from [here](https://link.springer.com/chapter/10.1007/978-3-031-43996-4_51)
-
-**Important**
-
-Model weights have been added, see [ Download the pre-trained models](# download-the-pre-trained-models).
-C3VD trajectory paths to allow users to render datasets without downloading a copy of C3VD can be found under /data
-
-C3VD updated its data and naming format. The REIM-NeRF was developed using the initial version of C3VD and therefore we follow the old naming
-convention. To allow users processing the new format of C3VD we have updated the pre-processing code to process both C3VD version and default to the latest format.
-If you have difficulties recreating the paper's results please read issue #1 of the repository
-
-
-### Paper's Abstract
-
-Expanding training and evaluation data is a major step towards building and deploying reliable localization and 3D reconstruction
-techniques during colonoscopy screenings. However, training and evaluating pose and depth models in colonoscopy is hard as available datasets
-are limited in size. This paper proposes a method for generating new pose
-and depth datasets by fitting NeRFs in already available colonoscopy
-datasets. Given a set of images, their associated depth maps and pose
-information, we train a novel light source location-conditioned NeRF to
-encapsulate the 3D and color information of a colon sequence. Then, we
-leverage the trained networks to render images from previously unobserved camera poses and simulate different camera systems, effectively
-expanding the source dataset. Our experiments show that our model is
-able to generate RGB images and depth maps of a colonoscopy sequence
-from previously unobserved poses with high accuracy.
-
-## Recreating the paper's results
 
 ### Download the pre-trained models and normalized C3VD sequences
 
